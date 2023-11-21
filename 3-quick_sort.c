@@ -19,7 +19,7 @@ void swap(int *x, int *y)
 
 /**
  * lomuto_sort - Lomuto partition scheme
- * @array: THe arrayof integers
+ * @array: The arrayof integers
  * @size: Array size
  * @left: The starting index of the array partition to order
  * @right: The ending index of the array partition to order
@@ -60,7 +60,7 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 
 /**
  * quick_sort - Function that sorts array of
- * int w/ quicksort algorithm
+ * integers in ascending order using quicksort algorithm
  * @array: integer array
  * @size: Array size
  *
